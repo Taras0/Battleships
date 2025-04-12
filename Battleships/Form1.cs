@@ -23,6 +23,8 @@ namespace Battleships
             enemyBoard = new Field[10, 10];
             CreateBoard(playerBoard, 30, 30);
             CreateBoard(enemyBoard, 390, 30);
+            //test
+
         }
 
         public void CreateBoard(Field[,] board, int startX = 0, int startY = 0)
