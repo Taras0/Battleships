@@ -10,6 +10,8 @@ namespace Battleships
     public class Field : Button
     {
         public int value;
+        public int x;
+        public int y;
 
         public Field()
         {
